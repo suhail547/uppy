@@ -189,6 +189,7 @@ module.exports = {
       files: [
         '*.mjs',
         'e2e/clients/**/*.js',
+        'examples/aws-companion/*.js',
         'examples/aws-presigned-url/*.js',
         'examples/bundled/*.js',
         'private/dev/*.js',
@@ -358,7 +359,8 @@ module.exports = {
       files: [
         'bin/**.js',
         'bin/**.mjs',
-        'examples/**/*.js',
+        'examples/**/*.config.js',
+        'examples/**/*.cjs',
         'packages/@uppy/companion/test/**/*.js',
         'test/**/*.js',
         'test/**/*.ts',
