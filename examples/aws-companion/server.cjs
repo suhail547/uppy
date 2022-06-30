@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const companion = require('@uppy/companion')
 
-require('dotenv').config()
+require('dotenv').config({ path: path.join(__dirname, '..', '..', '.env') })
 const app = require('express')()
 
 const DATA_DIR = path.join(__dirname, 'tmp')
